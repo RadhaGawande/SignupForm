@@ -1,0 +1,113 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(189, 196, 196, 0.409);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgb(189, 192, 194);
+}
+.text-box{
+    float: left;
+    width: 450px;
+    height: 600px;
+    box-sizing: border-box;
+    padding: 80px 40px;
+    background: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.text-box .header-logo{
+    width: 35px;
+    height: 30px;
+    padding:15px 0 0;
+    
+}
+.text-box .header-txt {
+    padding:15px 0 0;
+   display:inline-block;
+}
+.text-box .header-txt h1{
+    padding: 5px 5px;
+    color: rgba(0, 0, 0, 0.932); 
+    font-style:bold;
+    font-size: 15px;
+}
+h3{
+    margin: 0;
+    padding: 40px 0 15px;
+    font-size: 28px;
+}
+.text-box input{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(63, 59, 59) ;
+    /* border-left:1px solid rgb(63, 59, 59) ;
+    border-top:1px solid rgb(63, 59, 59)  ;
+    border-bottom: 1px solid rgb(63, 59, 59) ;
+    border-right: 1px solid rgb(63, 59, 59) ; */
+}
+.text-box input[type="email"],
+.text-box input[type="password"]{
+    height: 27px;
+    font-size: 15px;
+    padding-left: 10px;
+    box-sizing: border-box;
+   
+}
+::placeholder{
+    color: rgba(110, 104, 107, 0.103);
+    
+}
+.inputbox{
+    position: relative;
+}
+.inputbox p{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.613);
+    
+}
+.inputbox span{
+    position: absolute;
+    color: rgb(83, 16, 146);
+    right: 40px;
+    
+}
+button{
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    background:rgb(125, 24, 220);
+    width: 90%;
+    cursor: pointer;
+}
+.img-box{
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+    float: right;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.img-box  img{
+    width: 100%;
+}   
+.Already-Account{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.Already-Account a{
+    color:rgb(82, 18, 141);
+}
